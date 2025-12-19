@@ -1,0 +1,27 @@
+// Q21. Write a java program to print Fibonacci series up to a given number limit.
+ 	
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+	    int n=s.nextInt();
+	    
+	    int a=0,b=1;
+	    for(int i=1;i<=n;i++){
+	        System.out.print(a+" ");
+	        int c=a+b;
+	        a=b;
+	        b=c;
+	    }
+	   
+		  
+		}
+		
+	     
+	}
+
+		
+	
+
